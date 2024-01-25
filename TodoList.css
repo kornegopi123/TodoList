@@ -1,0 +1,62 @@
+body {
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e7e7e7;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+    min-width: 400px;
+}
+#delete {
+    margin-left: 10px;
+    background-color: rgb(252, 11, 11);
+}
+#total{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: orange;
+    margin: 20px 20px;
+}
+#input {
+    font-family: monospace, sans-serif;
+    width: auto;
+    min-width: 75%;
+    height: 24px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.container button{
+    font-family: monospace, sans-serif;
+    height: 30px;
+    min-width: 10%;
+    width: auto;
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.checked {
+    text-decoration: solid;
+    color: red;
+    opacity: 0.7;
+}
